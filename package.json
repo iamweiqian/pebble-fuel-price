@@ -9,15 +9,26 @@
         "messageKeys": [],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "images/ic_fuel.png",
+                    "name": "ICON_FUEL",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ic_logo.png",
+                    "menuIcon": true,
+                    "name": "ICON_LOGO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
             "aplite",
-            "basalt",
-            "chalk",
-            "diorite",
-            "emery"
+            "basalt"
         ],
         "uuid": "2317fc67-a058-4c39-b9cd-57b6bd469674",
         "watchapp": {

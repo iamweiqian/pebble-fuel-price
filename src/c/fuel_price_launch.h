@@ -2,4 +2,4 @@
 
 void init();
 void deinit();
-Window *main_window_get_window();
+Window *launch_window_get_window();
