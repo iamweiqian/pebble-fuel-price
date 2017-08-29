@@ -1,5 +1,6 @@
 #include <pebble.h>
 #include "fuel_price_main.h"
+#include "fuel_price_error.h"
 
 Window *mainWindow;
 MenuLayer *mainMenuLayer;
@@ -62,7 +63,7 @@ void menu_draw_row_callback(GContext* ctx, const Layer *cell_layer, MenuIndex *c
 }
 
 void menu_select_callback(MenuLayer *menu_layer, MenuIndex *cell_index, void *data) {
-	
+	error_window_show("Hello there!");
 }
 
 void setup_menu_layer(Window *window) {
