@@ -1,5 +1,5 @@
 #pragma once
 
-void init();
-void deinit();
+void launch_window_create();
+void launch_window_destroy();
 Window *launch_window_get_window();

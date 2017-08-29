@@ -27,7 +27,7 @@ void launch_window_unload(Window *window) {
 	text_layer_destroy(launchIconTitle);
 }
 
-void init() {
+void launch_window_create() {
 	launchWindow = window_create();
 	window_set_window_handlers(launchWindow, (WindowHandlers) {
 		.load = launch_window_load,
@@ -35,7 +35,7 @@ void init() {
 	});
 }
 
-void deinit() {
+void launch_window_destroy() {
 	window_destroy(launchWindow);
 }
 
